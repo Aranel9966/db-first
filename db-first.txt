@@ -1,0 +1,16 @@
+/*
+Modellizzare la struttura di una tabella per memorizzare 
+tutti i dati riguardanti delle auto usate messe in vendita 
+da un concessionario.
+*/
+
+id - NOT_NULL / Primary Key / AUTO_INCREMENT / Numeri
+modello - VARCHAR(25) / NOT_NULL
+marca - NOT_NULL / VARCHAR(25) 
+targa - NOT_NULL / UNIQUE / VARCHAR(7) 
+km - NOT_NULL / FLOAT(6)
+description - NULL / TEXT
+price - NOT_NULL / FLOAT(7,2)
+data - NOT_NULL / DATE
+
+
